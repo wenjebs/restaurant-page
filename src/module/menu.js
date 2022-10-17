@@ -4,7 +4,7 @@ function loadMenu() {
     
     
     const salmon = document.createElement('img');
-    salmon.src = '../salmon.png';
+    salmon.src = 'https://www.goodbites.com.sg/images/1-5XgpVE.png';
     const salmonBox = document.createElement('figure');
     const salmonCap = document.createElement('figcaption');
     salmonCap.textContent = 'yummy sammies';
@@ -13,7 +13,7 @@ function loadMenu() {
     salmonBox.appendChild(salmonCap);
 
     const pork = document.createElement('img');
-    pork.src = '../pork.png';
+    pork.src = 'https://www.goodbites.com.sg/images/3-1vsgtj.png';
     const porkBox = document.createElement('figure');
     const porkCap = document.createElement('figcaption');
     porkCap.textContent = 'yummy porks';
